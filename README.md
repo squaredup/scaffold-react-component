@@ -15,6 +15,7 @@ Feel free to fork and modify if you're using something else.
 
 ## Installation
 It's recommend to install this globally, so it's available across all projects.
+
 `npm install -g scaffold-react-component`
 
 ## Usage
@@ -32,6 +33,8 @@ By default, the Storybook category will be set to 'Common', you can override thi
 `scaffold-react-component Modal --sb UI`
 
 ## Publishing a new version of this package
-Make sure you have `np` installed globally: `npm install -g np`.
+Make sure you have `np` installed globally: 
+
+`npm install -g np`.
 
 Run `np` and follow the instructions to publish the new package.

@@ -1,0 +1,14 @@
+{
+  "name": "scaffold-react-component",
+  "version": "0.0.1",
+  "description": "Scaffold a React component with styles, tests and a story.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Dave Clarke",
+  "license": "ISC",
+  "dependencies": {
+    "yargs": "^15.3.1"
+  }
+}

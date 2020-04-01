@@ -20,17 +20,24 @@ It's recommend to install this globally, so it's available across all projects.
 
 ## Usage
 
+For full guidance run:
+
+`scaffold --help`
+
 To scaffold a functional React component use, e.g.
 
 `scaffold Modal`
 
-To scaffold a ES6 class React component use, e.g.
+To scaffold a ES6 class React component use the second argument, or the `--type`/`-t` parameter.
 
-`scaffold Modal --type class`
+* `scaffold Modal class`
+* `scaffold Modal --type class`
+* `scaffold Modal -t class`
 
-By default, the Storybook category will be set to 'Common', you can override this with the `--storybookCategory`/`--sb` argument, e.g.
+By default, the Storybook category will be set to 'Common', you can override this with the `--storybookCategory`/`-sb` parameter.
 
-`scaffold Modal --sb UI`
+* `scaffold Modal -storybookCategory UI`
+* `scaffold Modal -sb UI`
 
 ## Publishing a new version of this package
 Make sure you have `np` installed globally: 

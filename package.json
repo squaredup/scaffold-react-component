@@ -1,6 +1,6 @@
 {
   "name": "scaffold-react-component",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Scaffold a React component with styles, tests and a story.",
   "main": "index.js",
   "scripts": {

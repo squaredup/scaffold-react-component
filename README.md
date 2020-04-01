@@ -15,7 +15,7 @@ To scaffold a ES6 class React component use:
 `scaffold-react-component Modal --type class`
 
 By default, the Storybook category will be set to 'Common', you can override this with the --storybookCategory/--sb argument:
-`scaffold-react-component Modal --sb UI
+`scaffold-react-component Modal --sb UI`
 
 ## Publishing a new version of this package
 Make sure you have `np` installed globally: `npm install -g np`.

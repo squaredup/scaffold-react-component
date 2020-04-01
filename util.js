@@ -5,8 +5,7 @@ const readReplaceWriteAsync = (templateFile, newFile, replacements) => {
         fs.readFile(templateFile, 'utf8', (err, data) => {
 
             if (err) {
-                console.log('Could not read file:', err);
-                return false;
+                throw new Error('Could not read file:', err);
             }
             const replace = Object.keys(replacements).join('|');
 
@@ -16,14 +15,13 @@ const readReplaceWriteAsync = (templateFile, newFile, replacements) => {
 
             fs.writeFile(newFile, result, 'utf8', (err) => {
                 if (err) {
-                    console.log('Could not write file:', err);
-                    return false;
+                    throw new Error('Could not write file:', err);
                 }
             });
         });
     }
     else {
-        console.log('File creation aborted', newFile, 'already exists.');
+        throw new Error(`File creation aborted ${newFile} already exists.`);
     }    
 }
 

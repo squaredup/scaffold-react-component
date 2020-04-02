@@ -45,3 +45,11 @@ Make sure you have `np` installed globally:
 `npm install -g np`.
 
 Run `np` and follow the instructions to publish the new package.
+
+## Contributing
+
+Please feel free to raise any issues you come across, and we welcome any pull requests!
+
+### Contributors
+
+* [clarkd](https://github.com/clarkd)

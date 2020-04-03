@@ -39,6 +39,13 @@ By default, the Storybook category will be set to 'Common', you can override thi
 * `scaffold Modal -storybookCategory UI`
 * `scaffold Modal -sb UI`
 
+### Directory Creation
+
+By default `scaffold` will create the directory for the component if needed. It will skip this step if:
+
+* the directory already exists, and it is empty
+* the current working directory matches the intended name, and it is empty
+
 ## Publishing a new version of this package
 Make sure you have `np` installed globally: 
 

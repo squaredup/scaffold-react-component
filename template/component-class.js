@@ -6,8 +6,8 @@ import styles from './__NAME__.module.scss';
  * <Add description here>
  * 
  * @example
- * return (<__NAME__ />)
-  */
+ * <__NAME__ />
+ */
 class __NAME__ extends React.Component () {   
     render() {
         return (

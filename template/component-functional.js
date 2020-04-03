@@ -6,8 +6,8 @@ import styles from './__NAME__.module.scss';
  * <Add description here>
  * 
  * @example
- * return (<__NAME__ />)
-  */
+ * <__NAME__ />
+ */
 function __NAME__() {   
     return (
         <div className={styles.__NAME_LOWER__}> 

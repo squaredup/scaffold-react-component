@@ -9,4 +9,4 @@ export default {
 /**
  * Basic example
  */
-export const Basic = () => <__NAME__ />    
+export const Basic = () => <__NAME__ />;

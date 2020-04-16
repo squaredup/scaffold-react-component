@@ -10,7 +10,7 @@ import styles from './__NAME__.module.scss';
  */
 function __NAME__() {   
     return (
-        <div className={styles.__NAME_LOWER__}> 
+        <div className={styles.__NAME_LOWER_CAMEL__}> 
             Hello
         </div>        
     );

@@ -123,9 +123,15 @@ const toKebabCase = (str) => {
     return isCapitalLetter(str[0]) ? result.substring(1) : result;
 }
 
+const toCamelCase = (str) => {
+    const result = str.replace(/[-_\s.]+(.)?/g, (_, c) => c ? c.toUpperCase() : '');
+    return result.substr(0, 1).toLowerCase() + result.substr(1);
+}
+
 module.exports = { 
     readReplaceWriteAsync, 
     checkAndCreateTargetPath,
     toKebabCase,
+    toCamelCase,
     isCapitalLetter     
 };

@@ -11,7 +11,7 @@ import styles from './__NAME__.module.scss';
 class __NAME__ extends React.Component () {   
     render() {
         return (
-            <div className={styles.__NAME_LOWER__}> 
+            <div className={styles.__NAME_LOWER_CAMEL__}> 
                 Hello
             </div>        
         );

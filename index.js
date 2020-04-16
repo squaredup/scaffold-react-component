@@ -6,7 +6,7 @@ const util = require('./util.js');
 const log = require('./log.js');
 
 const StubName = "__NAME__";
-const StubNameLower = "__NAME_LOWER__";
+const StubNameLowerCamel = "__NAME_LOWER_CAMEL__";
 const StubStoryBookType = "__SB_TYPE__";
 
 const ComponentClassSrcPath = 'template/component-class.js';
@@ -28,7 +28,7 @@ const TestTargetPath = (name) => `${name}.test.js`;
 const ConstructMap = (name, storybookType) => {
     return {
         [StubName] : name,
-        [StubNameLower]: name.toLowerCase(),
+        [StubNameLowerCamel]: util.toCamelCase(name),
         [StubStoryBookType]: storybookType
     }
 };

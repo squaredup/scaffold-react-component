@@ -6,7 +6,7 @@ import styles from './__NAME__.module.scss';
  * <Add description here>
  * 
  * @example
- * <__NAME__ />
+ * `<__NAME__ />`
  */
 function __NAME__() {   
     return (
